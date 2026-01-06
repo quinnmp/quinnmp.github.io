@@ -26,7 +26,7 @@ $(document).ready(function () {
                     const subject = $("#subject").val();
                     const message = $("#message").val();
 
-                    const mailtoLink = `mailto:quinnpfeifer@icloud.com?subject=${subject}&body=Name: ${
+                    const mailtoLink = `mailto:qpfeifer@uw.edu?subject=${subject}&body=Name: ${
                         firstName + " " + lastName
                     }%0A${message}`;
 
