@@ -3,14 +3,8 @@ $(document).ready(function () {
         "home",
         "academics",
         "research",
-        "first",
-        "mars",
         "rovs",
         "volunteering",
-        "job",
-        "skills",
-        "awards",
-        "projects",
         "hobbies",
         "résumé",
         "contact",
@@ -46,8 +40,6 @@ $(document).ready(function () {
     $(".nav-link").click(function () {
         let id_string = $(this).attr("id");
         let id = id_string.substring(8, id_string.length - 4);
-        if (id !== "robotics") {
-            $("#main-img").attr("src", "images/" + id + ".jpg");
-        }
+        $("#main-img").attr("src", "images/" + id + ".jpg");
     });
 });
